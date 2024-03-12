@@ -1,3 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
+.article-heading h2 {
+    width: fit-content;
+}
+
+.article-heading h2, .article-heading img {
+    display: inline;
+    vertical-align: middle;
+}
