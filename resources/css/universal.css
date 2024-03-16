@@ -1,12 +1,12 @@
-* {
-    box-sizing: border-box;
-}
-
-.article-heading h2 {
-    width: fit-content;
-}
-
-.article-heading h2, .article-heading img {
+div.article-heading * {
     display: inline;
     vertical-align: middle;
+}
+
+.article-heading img {
+    cursor: pointer;
+}
+
+#pause-button {
+    display: none;
 }
