@@ -10,3 +10,18 @@ div.article-heading * {
 #pause-button {
     display: none;
 }
+
+.noise-image {
+    width: fit-content;
+    border: solid 1px black;
+}
+
+/* Only when editing in half-size mode */
+
+img {
+    max-width: 90vw;
+}
+
+html {
+    text-wrap: wrap;
+}
